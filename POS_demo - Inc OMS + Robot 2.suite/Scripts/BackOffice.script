@@ -1,7 +1,7 @@
 ﻿
 BeginTestCase "Back Office"
 PressHomeButton
-wait 2
+wait 3
 
 SetDeviceOrientation "LandscapeRight"
 
