@@ -1,0 +1,4 @@
+﻿Click "amazon_app"
+WaitFor 8.0, "amazon_banner"
+PressHomeButton
+WaitFor 8.0, "amazon_app"
