@@ -1,7 +1,0 @@
-﻿2017-06-06 13:25:49.678 +0100	START		Running Amazon.script
-2017-06-06 13:44:20.836 +0100	click	amazon_app	at (671, 200)	1	on_amazon	Amazon.script
-2017-06-06 13:46:21.055 +0100	waitfor	amazon_banner	found at (324, 146)	2	on_amazon	Amazon.script
-2017-06-06 13:46:21.060 +0100	presshomebutton			3	on_amazon	Amazon.script
-2017-06-06 13:46:27.086 +0100	waitfor	amazon_app	found at (671, 200)	4	on_amazon	Amazon.script
-2017-06-06 13:46:27.306 +0100	EndTestCase		(Duration:"1237.627058", Errors:"0", Exceptions:"0", StartTime:"2017-06-06 13:25:49 +0100", Successes:"1", TestCase:"Amazon.script", Warnings:"0")
-2017-06-06 13:46:27.315 +0100	SUCCESS		Execution Time 0:20:37 Amazon.script
