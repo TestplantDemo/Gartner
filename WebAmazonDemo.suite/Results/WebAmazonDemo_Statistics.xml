@@ -1,3 +1,11 @@
 ﻿<?xml version="1.0"?>
 <statistics>
+ <script name="CrossBrowserDemo">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-06-06 14:21:35 +0100</FirstRun>
+  <LastRun>2017-06-06 14:21:35 +0100</LastRun>
+  <TotalTimeOnSuccess>18.847450</TotalTimeOnSuccess>
+ </script>
 </statistics>
