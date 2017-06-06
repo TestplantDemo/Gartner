@@ -41,14 +41,15 @@ click (text:"refresh",waitfor:20)
 wait 3
 repeat until imagefound(0,"Show_Green")
 	set ScreenSize to remoteScreenSize()
-	DragandDrop ScreenSize*(0.01,0.98),ScreenSize*(0.01,0.3)
+	DragandDrop ScreenSize*(0.01,0.9),ScreenSize*(0.01,0.3)
 	wait 3
 end repeat
 
 click "Show_Green"
+wait 3
 repeat until imagefound(0,text:"eposnow © 2017")
 	set ScreenSize to remoteScreenSize()
-	DragandDrop ScreenSize*(0.01,0.98),ScreenSize*(0.5,0.3)
+	DragandDrop ScreenSize*(0.01,0.9),ScreenSize*(0.5,0.3)
 	wait 3
 end repeat
 
@@ -63,10 +64,16 @@ replace every occurrence of space with comma in TempList
 put TempList into item 7 of MyRec
 log MyRec
 
+if Imagefound (0, Text: global MyPrice, validCharacters:"*")
+	log "The price that is displayed on the POS terminal is the same as the iPad:" && global MyPrice
+else 
+	logwarning "The prices being displayed on the POS temrinal is different that on the iPad."
+end if
+
 //reset device
 Click (image:"UserOpt",waitfor:20)
 Click (text:"logout",waitfor:20)
 PressHomeButton
-RotateLeft
+SetDeviceOrientation "Portrait"
 EndTestCase "Back Office"
 

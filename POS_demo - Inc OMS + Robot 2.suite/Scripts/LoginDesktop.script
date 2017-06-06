@@ -1,4 +1,5 @@
-﻿Click "UserID"
+﻿waitfor 20, "UserID"
+Click "UserID"
 typetext "test plant"
 Click "Password"
 typetext "eposnow"

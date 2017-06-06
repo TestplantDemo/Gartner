@@ -1,10 +1,17 @@
-﻿connect "POS_Terminal"
+﻿(*put url "https://www.eposnowhq.com/Pages/Account/Login.aspx"
+post queryData to url "https://www.eposnowhq.com/Pages/Account/Login.aspx" with headers ("Content-Type": "text/xml")
+
+Open Socket "www.klaros-testmanagement.com:80"
+write HTTPMessage(Request: "/demo/seam/resource/rest/importer?config=" & Project & "&env=ENV00001&sut="& SUTName & "&type=junit&username=admin&password=admin",body:queryData, Method:"PUT", Header:(Host: "www.klaros-testmanagement.com")) to socket "www.klaros-testmanagement.com:80"*)
+
+connect "POS_Terminal"
 Login
 Order
 BarcodeReader
 Verify_Price
 Paycash
 Logout
+
 connect "iPad_AIr"
 BackOffice
 
