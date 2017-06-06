@@ -1,5 +1,8 @@
 ﻿StartMovie "Amazon_App_Test"
 
+killapp "Amazon"
+killApp "com.amazon.mShop.android.shopping"
+wait 2
 Click "amazon_app"
 WaitFor 8.0, "amazon_banner"
 Click "Search"
