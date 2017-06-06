@@ -1,0 +1,83 @@
+﻿{
+    EPVersionNumber = 1705212251;
+    Schedules =     (
+                {
+            ChangeCount = 26;
+            Name = "Schedule 1";
+            Schedule =             (
+                                {
+                    Num = 1;
+                    Run = YES;
+                    Script = "AmazonTest.script";
+                },
+                                {
+                    Num = 2;
+                    Run = NO;
+                    Script = "CLeanUpScript.script";
+                },
+                                {
+                    Num = 3;
+                    Run = NO;
+                    Script = "CloseBrowser.script";
+                },
+                                {
+                    Num = 4;
+                    Run = YES;
+                    Script = "EnterURL.script";
+                },
+                                {
+                    Num = 5;
+                    Run = YES;
+                    Script = "FailedScript.script";
+                },
+                                {
+                    Num = 6;
+                    Run = YES;
+                    Script = "OpenBrowser.script";
+                },
+                                {
+                    Num = 7;
+                    Run = YES;
+                    Script = "PassedScript.script";
+                },
+                                {
+                    Num = 8;
+                    Run = YES;
+                    Script = "Sandbox.script";
+                },
+                                {
+                    Num = 9;
+                    Run = YES;
+                    Script = "Test_1.script";
+                },
+                                {
+                    Num = 10;
+                    Run = YES;
+                    Script = "Untitled.script";
+                }
+            );
+        }
+    );
+    ScriptMetaData =     {
+    };
+    SuiteEncodedTextKey = "F1-o;U,P18^1{!26";
+    helpedSuitesInfo =     (
+                {
+            filePath = "../../../../../Desktop/MASTER.suite";
+        },
+                {
+            filePath = "../../../Desktop/MASTER.suite";
+        },
+                {
+            filePath = "../../../Desktop/MASTER.suite";
+        },
+                {
+            filePath = "../../../Desktop/TestDesignDemo.suite";
+        },
+                {
+            filePath = "../../../../../../Desktop/TestDesign.suite";
+        }
+    );
+    helperSuitesInfo =     (
+    );
+}

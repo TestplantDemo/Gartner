@@ -1,0 +1,12 @@
+﻿(*connect "Windows_7"*)
+
+repeat with each item MyBrowser of ("chrome", "firefox", "iexplore")
+	set the collectionfilter to MyBrowser
+	runwithnewresults "AmazonSearchTest", MyBrowser
+	put the result into MyResult
+	if MyResult.Status = "Success"
+		log "The test passed on" && MyBrowser
+	else
+		logerror "The test failed on" && MyBrowser && "with error" && MyResult.ErrorMessage
+	end if
+end repeat

@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2016-09-22 13:35:04 +0000";
+    CaptureHost = "eggBox1.local";
+    CaptureScreenSize =     (
+        640,
+        1136
+    );
+    HasAlpha = 1;
+    HotSpotX = 45;
+    HotSpotY = 45;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 197;
+    OriginalLocationY = 422;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

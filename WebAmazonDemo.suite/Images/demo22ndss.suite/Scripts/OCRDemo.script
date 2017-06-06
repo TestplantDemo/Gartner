@@ -1,0 +1,17 @@
+﻿put readtext ("TL", "BR") into MyVar
+
+if MyVar = "£24.99"
+	log "the data is correct"
+else
+	logwarning "The data is wrong. It was read as" && Myvar
+end if
+
+
+put everyimagelocation ("TL") into TL
+put everyimagelocation ("BR") into BR
+
+
+put readtext (item 2 of TL, item 2 of BR)
+
+
+click Text:"Complete Collection"

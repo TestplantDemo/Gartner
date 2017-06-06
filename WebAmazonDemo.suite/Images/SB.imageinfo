@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2016-06-15 08:57:53 +0000";
+    CaptureHost = "PC-HOST1";
+    CaptureScreenSize =     (
+        1920,
+        1080
+    );
+    HasAlpha = 1;
+    HotSpotX = "-37";
+    HotSpotY = 14;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1442;
+    OriginalLocationY = 101;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

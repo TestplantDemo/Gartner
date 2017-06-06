@@ -1,0 +1,12 @@
+﻿params MyItem,MyBrowser
+
+waitfor 100, "SearchButton","Refresh"
+
+Click "SearchButton"
+typetext MyItem
+typetext return
+begintestcase "SearchItem"
+wait 1
+waitfor 50, "Refresh"
+endtestcase "SearchItem"
+log "It took" && the duration of the result && "seconds for the page to load when searching for" && MyItem && "on" && MyBrowser

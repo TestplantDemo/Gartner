@@ -1,0 +1,11 @@
+﻿params MyURL
+(*StartMovie ("EnterURL")*)
+waitfor 20, "Refresh"
+wait 0.5
+typetext controlkey,"l"
+wait 0.5
+typetext MyURL
+typetext return
+wait 1
+waitfor 50, "Refresh"
+(*StopMovie *)
