@@ -1,0 +1,31 @@
+﻿{
+    EPVersionNumber = 1705212251;
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+        AmazonTest =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+        CloseBrowser =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+        EnterURL =         {
+            TableScriptUserActionDefaultExpectedValue = Yes;
+            TableScriptUserActionType = Verify;
+        };
+        OpenBrowser =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+    };
+    SuiteEncodedTextKey = "D5'JI[+%8q/`xm-k";
+    helpedSuitesInfo =     (
+                {
+            filePath = "../Documents/GartnerWebinar/TableDemo.suite";
+        }
+    );
+    helperSuitesInfo =     (
+    );
+}

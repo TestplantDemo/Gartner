@@ -1,0 +1,7 @@
+﻿2016-09-22 14:26:03.226 +0100	START		Running test1.script
+2016-09-22 14:26:04.629 +0100	click	AppIcon	at (1234, 1187)	1	on_test1	test1.script
+2016-09-22 14:26:06.085 +0100	waitfor	amazonPrime	found at (442, 209)	2	on_test1	test1.script
+2016-09-22 14:26:06.103 +0100	presshomebutton			3	on_test1	test1.script
+2016-09-22 14:26:07.982 +0100	waitfor	AppIcon	found at (1234, 1187)	4	on_test1	test1.script
+2016-09-22 14:26:08.398 +0100	EndTestCase		(Duration:"5.169693", Errors:"0", Exceptions:"0", StartTime:"2016-09-22 14:26:03 +0100", Successes:"1", TestCase:"test1.script", Warnings:"0")
+2016-09-22 14:26:08.404 +0100	SUCCESS		Execution Time 0:00:05 test1.script

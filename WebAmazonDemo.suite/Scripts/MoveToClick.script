@@ -1,0 +1,4 @@
+﻿params MyImage
+moveto MyImage
+wait 0.5
+click foundimagelocation()

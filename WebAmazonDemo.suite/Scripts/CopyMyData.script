@@ -1,0 +1,8 @@
+﻿typetext controlkey,"a"
+typetext controlkey,"c"
+put remoteclipboard (5) into MyVar
+log MyVar
+
+
+
+put item 8 of line 19 of MyVar

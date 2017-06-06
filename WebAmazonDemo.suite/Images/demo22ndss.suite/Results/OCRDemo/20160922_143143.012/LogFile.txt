@@ -1,0 +1,5 @@
+﻿2016-09-22 14:31:43.012 +0100	START		Running OCRDemo.script
+2016-09-22 14:31:45.743 +0100	readtext		(453,1029,656,1102)
+2016-09-22 14:31:45.804 +0100	LogWarning		The data is wrong. It was read as £34.99	6	on_ocrdemo	OCRDemo.script
+2016-09-22 14:31:46.200 +0100	EndTestCase		(Duration:"3.18614", Errors:"0", Exceptions:"0", StartTime:"2016-09-22 14:31:43 +0100", Successes:"1", TestCase:"OCRDemo.script", Warnings:"1")
+2016-09-22 14:31:46.205 +0100	SUCCESS		Execution Time 0:00:03 OCRDemo.script

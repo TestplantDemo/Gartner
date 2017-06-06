@@ -1,0 +1,21 @@
+﻿2017-06-06 14:21:35.107 +0100	START		Running CrossBrowserDemo.table
+2017-06-06 14:21:35.141 +0100	typetext		[windowsKey]r	2	on_openbrowser	OpenBrowser.script
+2017-06-06 14:21:36.075 +0100	waitfor	Runheader	found at (39, 840)	3	on_openbrowser	OpenBrowser.script
+2017-06-06 14:21:36.184 +0100	typetext		iexplore	4	on_openbrowser	OpenBrowser.script
+2017-06-06 14:21:36.904 +0100	typetext		[return]	5	on_openbrowser	OpenBrowser.script
+2017-06-06 14:21:38.221 +0100	waitfor	Refresh	found at (603, 38)	3	on_enterurl	EnterURL.script
+2017-06-06 14:21:38.749 +0100	typetext		[controlKey]l	5	on_enterurl	EnterURL.script
+2017-06-06 14:21:39.674 +0100	typetext		www.amazon.co.uk	7	on_enterurl	EnterURL.script
+2017-06-06 14:21:40.394 +0100	typetext		[return]	8	on_enterurl	EnterURL.script
+2017-06-06 14:21:42.726 +0100	waitfor	Refresh	found at (605, 38)	10	on_enterurl	EnterURL.script
+2017-06-06 14:21:43.361 +0100	waitfor	SearchButton	found #1 at (1318, 85)	3	on_amazontest	AmazonTest.script
+2017-06-06 14:21:43.719 +0100	click	SearchButton	at (1318, 85)	5	on_amazontest	AmazonTest.script
+2017-06-06 14:21:44.528 +0100	typetext		iexplore	6	on_amazontest	AmazonTest.script
+2017-06-06 14:21:45.244 +0100	typetext		[return]	7	on_amazontest	AmazonTest.script
+2017-06-06 14:21:45.245 +0100	BeginTestCase		SearchItem	8	on_amazontest	AmazonTest.script
+2017-06-06 14:21:50.919 +0100	waitfor	Refresh	found at (605, 38)	10	on_amazontest	AmazonTest.script
+2017-06-06 14:21:50.922 +0100	EndTestCase		(Duration:"5.676285", Errors:"0", Exceptions:"0", StartTime:"2017-06-06 14:21:45 +0100", Successes:"0", TestCase:"SearchItem", Warnings:"0")	11	on_amazontest	AmazonTest.script
+2017-06-06 14:21:50.923 +0100	Log		It took 5.676285 seconds for the page to load when searching for iexplore on playstation	12	on_amazontest	AmazonTest.script
+2017-06-06 14:21:50.951 +0100	typetext		[windowsAltKey][F4]	1	on_closebrowser	CloseBrowser.script
+2017-06-06 14:21:53.954 +0100	EndTestCase		(Duration:"18.846371", Errors:"0", Exceptions:"0", StartTime:"2017-06-06 14:21:35 +0100", Successes:"1", TestCase:"CrossBrowserDemo.table", Warnings:"0")
+2017-06-06 14:21:54.017 +0100	SUCCESS		Execution Time 0:00:18 CrossBrowserDemo.table

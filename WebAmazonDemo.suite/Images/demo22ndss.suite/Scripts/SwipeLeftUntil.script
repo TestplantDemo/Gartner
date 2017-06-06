@@ -1,0 +1,11 @@
+﻿params MyImage
+
+repeat until imagefound (1,MyImage)
+	swipeleft
+	wait 3
+	
+	if repeatindex() >10
+		exit repeat
+	end if
+	
+end repeat

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="test1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2016-09-22 14:25:50 +0100</FirstRun>
+  <LastRun>2016-09-22 14:36:32 +0100</LastRun>
+  <TotalTimeOnSuccess>50.885247</TotalTimeOnSuccess>
+ </script>
+ <script name="OCRDemo">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2016-09-22 14:29:14 +0100</FirstRun>
+  <LastRun>2016-09-22 14:31:43 +0100</LastRun>
+  <TotalTimeOnSuccess>13.621998</TotalTimeOnSuccess>
+ </script>
+</statistics>

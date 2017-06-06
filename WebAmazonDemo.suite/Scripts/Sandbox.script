@@ -1,0 +1,9 @@
+﻿
+connect "MacMini_1"
+Click "AmazonSearchButton"
+typetext "xbox 1", return
+
+connect "Windows_7"
+Click "AmazonSearchButton"
+typetext "xbox 1", return
+

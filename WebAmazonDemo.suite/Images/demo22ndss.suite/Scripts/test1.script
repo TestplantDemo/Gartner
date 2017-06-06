@@ -1,0 +1,8 @@
+﻿SwipeLeftUntil "AppIcon"
+
+Click "AppIcon"
+WaitFor 20.0, "amazonPrime"
+PressHomeButton
+waitfor 20, "AppIcon"
+
+

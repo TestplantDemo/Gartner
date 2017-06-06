@@ -1,0 +1,8 @@
+﻿params MyImage
+
+repeat until imagefound (1, MyImage)
+	
+	typetext pageDown
+	wait 2
+	
+end repeat

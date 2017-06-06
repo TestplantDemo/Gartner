@@ -1,0 +1,8 @@
+﻿2016-09-22 14:35:47.909 +0100	START		Running test1.script
+2016-09-22 14:35:49.452 +0100	imagefound	AppIcon	found at (242, 467)	3	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:35:51.001 +0100	click	AppIcon	at (242, 467)	3	on_test1	test1.script
+2016-09-22 14:35:54.245 +0100	waitfor	amazonPrime	found at (319, 89)	4	on_test1	test1.script
+2016-09-22 14:35:54.299 +0100	presshomebutton			5	on_test1	test1.script
+2016-09-22 14:35:56.800 +0100	waitfor	AppIcon	found at (242, 467)	6	on_test1	test1.script
+2016-09-22 14:35:57.211 +0100	EndTestCase		(Duration:"9.301378", Errors:"0", Exceptions:"0", StartTime:"2016-09-22 14:35:47 +0100", Successes:"1", TestCase:"test1.script", Warnings:"0")
+2016-09-22 14:35:57.215 +0100	SUCCESS		Execution Time 0:00:09 test1.script
