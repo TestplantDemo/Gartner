@@ -5,7 +5,6 @@ BarcodeReader
 Verify_Price
 Paycash
 Logout
-
 connect "iPad_AIr"
 BackOffice
 
