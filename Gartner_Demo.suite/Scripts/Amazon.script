@@ -1,4 +1,16 @@
-﻿Click "amazon_app"
+﻿StartMovie "Amazon_App_Test"
+
+Repeat until ImageFound(0, "amazon_app")
+	SwipeLeft
+	wait 2
+	if repeatIndex() >= 3
+		Exit repeat
+	end if
+End repeat
+
+Click "amazon_app"
 WaitFor 8.0, "amazon_banner"
 PressHomeButton
 WaitFor 8.0, "amazon_app"
+
+StopMovie
