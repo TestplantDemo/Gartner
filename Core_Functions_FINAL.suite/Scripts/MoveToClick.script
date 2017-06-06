@@ -1,0 +1,7 @@
+﻿params MyImage
+moveto MyImage
+wait 0.5
+put the MouseClickDelay into MCD
+set the mouseclickDelay to 0.1
+click
+set the mouseclickDelay to MCD

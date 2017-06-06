@@ -1,0 +1,37 @@
+﻿params MyText,Rectangle
+MoveTo (1,1)
+set Area to RectangleList (Rectangle)
+
+//CATS.TestStepInfo MyText
+
+put the MouseClickDelay into MCD
+set the MouseClickDelay to 0.1
+if Rectangle is empty
+	if imagefound (5,Text:MyText, validCharacters:"*")
+		moveto foundimagelocation()
+		wait 0.5
+		click
+	else
+		log "We are refreshing the screen"
+		refreshscreen
+		wait 2
+		moveto (Text:MyText, validCharacters:"*",TextDifference:1)
+		wait 0.5
+		click
+	end if
+else
+	if imagefound (5,Text:MyText, validCharacters:"*", searchRectangle: screenPart(Area))
+		moveto foundimagelocation()
+		wait 0.5
+		click
+	else
+		log "We are refreshing the screen"
+		refreshscreen
+		wait 2
+		moveto (Text:MyText, validCharacters:"*", searchRectangle: screenPart(Area), TextDifference:1)
+		wait 0.5
+		click
+	end if
+end if
+
+set the MouseClickDelay to MCD

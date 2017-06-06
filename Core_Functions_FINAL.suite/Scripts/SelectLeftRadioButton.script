@@ -1,0 +1,19 @@
+﻿params MyText, RadioButton
+waitfor 20, (Text: MyText, validCharacters:"*")
+put foundimageinfo().ImageRectangle into ImageRec
+put the searchRectangle into SearchRec
+set the searchrectangle to (item 1 of ImageRec - 50,item 2 of ImageRec - 25, item 1 of ImageRec + 10, item 4 of ImageRec + 15)
+click  (10,300)
+if imagefound (0, RadioButton & "_Unselected")
+	click foundimagelocation()
+	click  (10,300)
+	waitfor 20, RadioButton & "_Selected"
+else
+	if imagefound  (2, RadioButton & "_Selected")
+		log "The radio button was already selected"
+	else
+		logerror "Could not find the radio button selected or un selected"
+	end if
+end if
+
+set the searchRectangle to searchRec

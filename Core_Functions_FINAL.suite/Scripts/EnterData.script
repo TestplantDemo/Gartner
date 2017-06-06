@@ -1,0 +1,51 @@
+﻿to Normal TextToType
+	wait 0.5
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the KeyDownDelay to 0.01
+	set the NextKeyDelay to 0.1
+	typetext TextToType
+	set the keyDownDelay to KDD
+	set the NextKeyDelay to NKD
+	wait 0.5
+end Normal
+
+
+to slow TextToType
+	wait 0.5
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the KeyDownDelay to 0.1
+	set the NextKeyDelay to 0.3
+	typetext TextToType
+	set the keyDownDelay to KDD
+	set the NextKeyDelay to NKD
+	wait 0.5
+end slow
+
+to Paste TextToPaste
+	wait 0.5
+	set the remoteclipboard to TextToPaste
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the KeyDownDelay to 0.1
+	set the NextKeyDelay to 0.1
+	typetext controlkey,"v"
+	set the keyDownDelay to KDD
+	set the NextKeyDelay to NKD
+	wait 0.5
+end Paste
+
+to HitReturn
+	put the keyDownDelay into KDD
+	set the keyDownDelay to 0.1
+	typetext return
+	set the KeyDownDelay to KDD
+end HitReturn
+
+to HitTab
+	put the keyDownDelay into KDD
+	set the keyDownDelay to 0.1
+	typetext tab
+	set the KeyDownDelay to KDD
+end Hittab

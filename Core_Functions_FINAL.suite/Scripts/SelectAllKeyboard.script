@@ -1,0 +1,7 @@
+﻿put the nextKeyDelay into NKD
+put the keyDownDelay into KDD
+set the keyDownDelay to 0.1
+set the nextKeyDelay to 0.1
+typetext controlkey,"a"
+set the nextKeyDelay to NKD
+set the keyDownDelay to KDD

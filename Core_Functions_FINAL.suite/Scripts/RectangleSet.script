@@ -1,0 +1,31 @@
+﻿to Area TopLeft,BottomRight
+	put connectioninfo().ScreenSize into ScreenSize
+	if imagefound (5, TopLeft)
+		put foundimageinfo().ImageRectangle into TLImageRec
+	else
+		refreshscreen
+		wait 2
+		waitfor 20, TopLeft
+		put foundimageinfo().ImageRectangle into TLImageRec
+	end if
+	
+	set the searchRectangle to (item 1 of TLImageRec -5 , item 2 of TLImageRec -5 , item 1 of ScreenSize, item 2 of ScreenSize)
+	
+	if imagefound (5, BottomRight)
+		put foundimageinfo().ImageRectangle into BRImageRec
+	else
+		refreshscreen
+		wait 2
+		waitfor 20, BottomRight
+		put foundimageinfo().ImageRectangle into BRImageRec
+	end if
+	
+	set the searchrectangle to (item 1 of TLImageRec - 5, item 2 of TLImageRec - 5, item 3 of BRImageRec +5, item 4 of BRImageRec + 5)
+end area
+
+to fullscreen
+	Set the searchrectangle to fullscreen
+end fullscreen
+
+
+

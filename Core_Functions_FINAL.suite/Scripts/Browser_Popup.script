@@ -1,0 +1,51 @@
+﻿to UnexpectedClose
+	MoveTo (1,1)
+	if imagefound (0, "IE_UnexpectedClose_Popup")
+		MoveToClick "IE_CloseCross_Popup"
+		wait 1
+	end if
+end UnexpectedClose
+
+to onlySecureContent
+	if global browser = "iexplore"
+		if imagefound (1,"IE_Onlysecurecontentisdisplayed_Popup")
+			MoveToclick "IE_ShowAllContent"
+			WaitFor 8.0, "IE_DisplayAgain"
+			EnterData.HitReturn
+			BeginTestCase "VerifyAddress"
+			browser.ConfirmPageLoad "Refresh", (Text:"Your Equifax Credit")
+			endtestcase "VerifyAddress"
+			put the result into VerifyAddressResult
+			log "Time to load verify address page after clicking show secure content in seconds:" && VerifyAddressResult.duration
+		end if
+	end if
+	
+	if global browser = "firefox"
+		if imagefound (2, "Firefox_SecurityButton")
+			MoveToClick "Firefox_SecurityButton"
+			WaitFor 8.0, "Firefox_Blocked"
+			MoveToClick "Firefox_Arrow"
+			WaitFor 8.0, "Firefox_RemoveException"
+			MoveToClick foundimagelocation()
+			WaitFor 8.0, "Firefox_Resend"
+			MoveToClick foundimagelocation()
+			browser.ConfirmPageLoad "Refresh", (Text:"Your Equifax Credit")
+		end if
+	end if
+	
+end onlySecureContent
+
+to CloseAnyPopup
+	moveto (1,1)
+	if imagefound (1, "IE_CloseCross_Popup")
+		MoveToClick "IE_CloseCross_Popup"
+		wait 1
+	end if
+end CloseAnyPopup
+
+to autoComplete
+	if imagefound (5, "Popup_Autocomplete")
+		MoveToclick "IE_No"
+	end if
+end autoComplete
+

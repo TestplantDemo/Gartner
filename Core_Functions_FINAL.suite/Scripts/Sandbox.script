@@ -1,0 +1,45 @@
+﻿///Checkbox demo
+
+Checkbox.UnSelect
+
+SelectLeftRadioButton "Keep me", "Checkbox"
+
+///Click below demo
+
+ClickBelow.Text "E-Mail", "TL"
+
+////ClickField demo
+
+ClickField "First name", "TL"
+ClickField "Pet name"
+
+ClickText "Downloads"
+
+set global browser to "iexplore"
+Browser.Open 
+Browser.EnterURL "www.testplant.com"
+Browser.ConfirmPageLoad "Refresh", Text:"eggPlant TOOLS"
+ClickText "News"
+ClickField "First name", "TL"
+CloseAllBrowsers
+EnterData.Slow "String to type slow"
+EnterData.Normal "String to type at normal speed"
+EnterData.Paste "String to paste"
+
+SelectAllKeyboard
+put extractdata()
+
+LaunchURL "www.amazon.co.uk"
+MoveToClick "Some image"
+
+RectangleArea "BR"
+wait 10
+
+Scroll.TextDown "About us"
+
+RectangleSet.Area (Text:"Has your pet been microchipped"), (Text:"No")
+SelectLeftRadioButton "No", "Circle"
+
+SwitchWindowTo "TestPlant_Logo", "Refresh"
+
+

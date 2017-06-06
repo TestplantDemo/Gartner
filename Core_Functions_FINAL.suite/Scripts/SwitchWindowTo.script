@@ -1,0 +1,17 @@
+﻿params Image1,Image2
+
+set pageFound to false
+put the keyDownDelay into KDD
+put the nextKeyDelay into NKD
+set the keyDownDelay to 0.01
+set the nextKeyDelay to 0.1
+repeat until pageFound=True
+	if imagefound (0,Image2) and if imagefound (0, Image1)
+		set pageFound to true
+	else
+		typetext altkey,escapeKey
+		wait 1
+	end if
+end repeat
+set the keyDownDelay to KDD
+set the nextKeyDelay to NKD

@@ -1,0 +1,2 @@
+﻿params Area
+set the searchrectangle to screenpart (rectangleList (Area))

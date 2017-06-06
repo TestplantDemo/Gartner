@@ -1,0 +1,18 @@
+﻿to Image MyImage,Rectangle
+	if Rectangle is empty
+		waitfor 300, (ImageName:MyImage)
+	else
+		set Area to RectangleList (Rectangle)
+		waitfor 300, (ImageName:MyImage,searchRectangle: screenPart(Area))
+	end if
+end Image
+
+to Text MyText,Rectangle
+	if Rectangle is empty
+		waitfor 300, (Text:MyText,validCharacters:"*")
+	else
+		
+		set Area to RectangleList (Rectangle)
+		waitfor 300, (Text:MyText,searchRectangle: screenPart(Area),validCharacters:"*")
+	end if
+end Text

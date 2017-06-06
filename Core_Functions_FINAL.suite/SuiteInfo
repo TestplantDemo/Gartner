@@ -1,0 +1,30 @@
+﻿{
+    EPVersionNumber = 1705212251;
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+    };
+    SuiteEncodedTextKey = ";5R=[9Zy>7$]F&Qj";
+    helpedSuitesInfo =     (
+                {
+            filePath = "testplant/TestPlant_FinalCode/OneView_Functions.suite";
+        },
+                {
+            filePath = "testplant/TestPlant_FinalCode/BTcom_Functions.suite";
+        },
+                {
+            filePath = "testplant/TestPlant_FinalCode/Agent_Functions.suite";
+        },
+                {
+            filePath = "master.suite";
+        },
+                {
+            filePath = "../SiemensTraining.suite";
+        },
+                {
+            filePath = "Desktop/Test_Design.suite";
+        }
+    );
+    helperSuitesInfo =     (
+    );
+}

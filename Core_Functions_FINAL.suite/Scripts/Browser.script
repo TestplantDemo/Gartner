@@ -1,0 +1,117 @@
+﻿to open
+	put (iexplore:"about:blank", firefox: "about:preferences", chrome:"about:blank") into OpenAddress
+	put the keyDownDelay into KDD
+	put the nextKeyDelay into NKD
+	set the nextKeyDelay to 0.1
+	set the keyDownDelay to 0.1
+	typetext windowsKey, "r"
+	set the KeyDownDelay to KDD
+	set the nextKeyDelay to NKD
+	WaitFor 30.0, "RunWindow_logo"
+	EnterData.Normal global Browser && OpenAddress.(global browser)
+	typetext return
+	wait 1
+end open
+
+to ClearCache
+	MoveToClick (10,300)
+	typetext controlkey,shiftkey,deletekey
+	waitfor 40, "IE_Delete"
+	MoveToclick foundimagelocation()
+	waitfor 40, "IE_CloseCross_Popup"
+	MoveToclick foundimagelocation()
+	wait 3
+end ClearCache
+
+to iexplore
+	if imagefound (0, "IE_UnexpectedClose_Popup")
+		MoveToClick "IE_CloseCross_Popup"
+		wait 1
+	end if
+end iexplore
+
+to firefox
+	log "Add code here to recover from task kill"
+end firefox
+
+to chrome
+	if imagefound (5, "chrome_ShutDown")
+		MoveToclick "Chrome_ClosePopup"
+		wait 3
+	end if
+end chrome
+
+to EnterURL URL
+	WaitForall 60.0, "Refresh", "URLBar"
+	repeat 3 times	
+		try
+			put the keyDownDelay into KDD
+			put the nextKeyDelay into NKD
+			set the nextKeyDelay to 0.1
+			set the keyDownDelay to 0.1
+			typetext controlkey, "l"
+			set the KeyDownDelay to KDD
+			set the nextKeyDelay to NKD
+			wait 1
+			waitfor 20, "URLBar/URLBarHighlighted"
+			wait 1
+			exit repeat
+		catch
+			logWarning "We could not bring focus into the URL bar"
+		end try
+	end repeat
+	EnterData.Paste URL
+	put the keyDownDelay into KDD
+	set the keyDownDelay to 0.1
+	typetext return
+	set the KeyDownDelay to KDD
+end EnterURL
+
+
+to Close
+	try
+		
+		put (iexplore: "taskkill /F /IM iexplore.exe /T", firefox: "taskkill /F /IM firefox.exe /T", chrome: "taskkill /F /IM chrome.exe /T") into BrowserKill
+		put the keyDownDelay into KDD
+		put the nextKeyDelay into NKD
+		set the nextKeyDelay to 0.1
+		set the keyDownDelay to 0.1
+		typetext windowsKey, "r"
+		set the KeyDownDelay to KDD
+		set the nextKeyDelay to NKD
+		WaitFor 30.0, "RunWindow_logo"
+		EnterData.Normal BrowserKill.(global Browser)
+		typetext return
+		wait 10
+		repeat 5 times
+			if imagefound (0, "IE_Closetheprogram")
+				MoveToclick foundimagelocation()
+				wait 3
+			end if
+		end repeat
+	catch error
+		throw scriptname, "Closing the browser was not successful"&&error
+	end try
+	
+	CATS.TestStepPass "Closing the browser completed successfully"
+end Close
+
+
+to ConfirmPageLoad Image1,Image2
+	wait 1
+	waitforall 500, Image1, Image2
+end ConfirmPageLoad
+
+
+to maximise
+	if imagefound (0, "Maximise")
+		click foundimagelocation()
+		wait 1
+		waitfor 30, "Minimise"
+	end if
+end maximise
+
+to CloseCurrentWindow
+	typetext altkey,f4
+	wait 3
+end CloseCurrentWindow

@@ -1,0 +1,32 @@
+﻿to Select
+	moveto (1,1)
+	wait 2
+	if imagefound (2, "Checkbox_Unselected")
+		Click foundimagelocation()
+		moveto (1,1)
+		WaitFor 8.0, "Checkbox_Selected"
+	else
+		if imagefound (2, "Checkbox_Selected")
+			log "The checkbox was already selected"
+		else
+			logerror "Could not find the check box image, either selected or unselected"
+		end if
+	end if
+	
+end Select
+
+to UnSelect
+	moveto (1,1)
+	wait 2
+	if imagefound (2, "Checkbox_Selected")
+		Click foundimagelocation()
+		moveto (1,1)
+		WaitFor 8.0, "Checkbox_Unselected"
+	else
+		if imagefound (2, "Checkbox_Unselected")
+			log "The checkbox was already unselected"
+		else
+			logerror "Could not find the check box image, either selected or unselected"
+		end if
+	end if
+end UnSelect

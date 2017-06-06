@@ -1,0 +1,23 @@
+﻿to text MyText,Rectangle
+	set Area to RectangleList (Rectangle)
+	if Rectangle is empty
+		if imagefound (5, Text:MyText)
+		else
+			log "We are refreshing the screen"
+			refreshScreen
+			wait 2
+			waitfor 5, Text:MyText
+		end if
+		
+	else
+		if imagefound (5, Text:MyText,  searchRectangle: screenPart(Area))
+		else
+			log "We are refreshing the screen"
+			refreshScreen
+			wait 2
+			waitfor 5, (Text:MyText,  searchRectangle: screenPart(Area))
+		end if
+	end if
+	put foundimageinfo() into ImageInfo
+	movetoclick (item 1 of ImageInfo.ImageLocation, item 4 of ImageInfo.ImageRectangle + 20)
+end text

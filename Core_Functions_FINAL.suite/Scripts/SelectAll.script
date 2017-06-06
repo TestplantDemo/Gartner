@@ -1,0 +1,3 @@
+﻿rightclick
+WaitFor 8.0, "Windows_SelectAll"
+click "Windows_SelectAll"

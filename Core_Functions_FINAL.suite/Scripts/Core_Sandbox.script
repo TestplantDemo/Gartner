@@ -1,0 +1,3 @@
+﻿Browser.Open "iexplore"
+Browser.EnterURL "http://oneviewbp.nat.bt.com:61000/ecommunications_enu_sm"
+Browser.ConfirmPageLoad ""

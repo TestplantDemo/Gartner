@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2017-03-13 10:10:05 +0000";
+    CaptureHost = "WIN-APBR0N5F2KO";
+    CaptureScreenSize =     (
+        2560,
+        1600
+    );
+    HasAlpha = 1;
+    HotSpotX = 71;
+    HotSpotY = 10;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1196;
+    OriginalLocationY = 870;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

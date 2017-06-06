@@ -1,0 +1,4 @@
+﻿repeat with each item MyBrowser of ("iexplore", "chrome", "firefox")
+	set global Browser to MyBrowser
+	Browser.close
+end repeat

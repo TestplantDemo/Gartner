@@ -1,0 +1,20 @@
+﻿params URL,ImageConfirm1, ImageConfirm2
+set scriptname to param(0)
+try
+	Browser.Open
+	//Browser.(global Browser)
+	Browser.ConfirmPageLoad "Refresh", "URLBar"
+	Browser.(global Browser)
+	Browser.Maximise
+	Browser.EnterURL URL
+	Browser.(global Browser)
+	BeginTestCase "BrowserLoad"
+	Browser.ConfirmPageLoad ImageConfirm1,ImageConfirm2
+	EndtestCase "BrowserLoad"
+	put the result into BrowserLoadResult
+	log "Time taken for URL" && URL && "to load in seconds:" && BrowserLoadResult.duration
+catch error
+	throw scriptname, "Launching the URL is not successful" && error
+end try
+
+CATS.TestStepPass "Launching the URL completed successfully"

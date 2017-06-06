@@ -1,0 +1,17 @@
+﻿params TextToConfirm
+click (10,300)
+typetext controlkey,"a"
+wait 1
+typetext controlkey,"c"
+wait 1
+put remoteclipboard(3) into DataOnScreen
+
+repeat with each item ConfirmItem of TextToConfirm
+	if DataOnScreen contains ConfirmItem
+		log "We were able to confirm the page contains" && ConfirmItem
+	else
+		logwarning "We were unable to confirm the page contains" && ConfirmItem
+	end if
+end repeat
+
+click (10,300)

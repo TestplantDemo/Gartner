@@ -1,0 +1,4 @@
+﻿params Rec  -- Values are between 0 and 1 and represent the proportion you want to go in the x and y direction for the top left and bottom right coordinates.
+
+
+return (item 1 of Rec * ConnectionInfo().ScreenSize.x,item 2 of Rec * ConnectionInfo().ScreenSize.y, Item 3 of Rec * ConnectionInfo().ScreenSize.x, Item 4 of Rec * ConnectionInfo().ScreenSize.y) 

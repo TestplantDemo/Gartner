@@ -1,0 +1,39 @@
+﻿Scroll.TextRight "SOme text."
+
+///Confirm Text on screen
+
+ConfirmText "Copyright,Downloads"
+
+
+////
+EnterData.Normal "performance"
+
+EnterData.Slow "performance"
+
+EnterData.Paste "performasdvdsfgfhreyhgdfgewrghewrtgerqgerwnce"
+
+
+///MoveToClick
+
+MoveToClick "TestPlant_Logo"
+
+
+////MoveToText
+
+MoveToText.Slow "eggPlant TOOLS", "TL"
+
+RectangleArea ("BR")
+wait 10
+
+RectangleSet.Area (Text:"eggPlant Range"), (Text:"About TestPlant")
+wait 10
+
+
+RectangleSet.Area (Text:"Has your pet been neutered"), "No"
+ClickText "Yes"
+
+SwitchWindowTo "TestPlant_Logo", "Twitter"
+
+
+
+

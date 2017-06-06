@@ -1,0 +1,8 @@
+﻿params Row,Column
+
+waitfor 20, (Text: Column, validcharacters:"*")
+put foundimagelocation() into ColumnLoc
+waitfor 20, (Text: Row, validcharacters:"*")
+put foundimagelocation() into RowLoc
+click (item 1 of ColumnLoc, item 2 of RowLoc)
+wait 2

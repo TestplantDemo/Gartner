@@ -1,0 +1,7 @@
+﻿typetext controlkey,"c"
+try 
+	put remoteclipboard(3) into DataRead
+	return DataRead
+catch
+	return "No service ID in field"
+end try

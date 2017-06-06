@@ -1,0 +1,8 @@
+﻿if imagefound (3,"RealVNCLogo")
+	MoveToclick foundimagelocation()
+	if imagefound (5, "ChooseLicensingOperation")
+		MoveToclick "Cancel"
+		wait 1
+	end if
+end if
+

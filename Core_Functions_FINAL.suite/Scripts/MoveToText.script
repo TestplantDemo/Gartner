@@ -1,0 +1,8 @@
+﻿to slow MyText,Rectangle
+	set Area to RectangleList (Rectangle)
+	put the MouseMoveSpeed into MMS
+	set the MouseMoveSpeed to 10
+	moveTo (Text:MyText, validCharacters:"*", searchRectangle: screenPart (Area))
+	set the MouseMoveSpeed to MMS
+end slow
+

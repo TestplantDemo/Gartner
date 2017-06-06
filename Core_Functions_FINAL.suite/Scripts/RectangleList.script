@@ -1,0 +1,4 @@
+﻿params Rectangle
+put (TL:"0,0,0.5,0.5",TR: "0.5,0,1,0.5", BL:"0,0.5,0.5,1", BR: "0.5,0.5,1,1",Middle:"0.33,0,0.67,1",Full:"0,0,1,1",BL3: "0,0.67,0.33,1", TR3: "0.67,0,1,0.33", L3: "0,0,0.33,1", R3: "0.67,0,1,1", BM3: "0.33,0.60,0.67,1",TM3: "0.33,0,0.67,0.33", M3: "0.33,0.33,0.67,0.67") into RectangleList
+Set Area to RectangleList.(Rectangle)
+return Area

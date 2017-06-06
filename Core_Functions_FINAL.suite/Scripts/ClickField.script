@@ -1,0 +1,27 @@
+﻿params MyText, Rectangle
+set Area to RectangleList (Rectangle)
+
+if Rectangle is empty
+	if imagefound (0,Text:MyText,validCharacters:"*")
+	else
+		log "We are refreshing the screen"
+		refreshscreen
+		wait 2
+		waitfor 5, (Text:MyText,validCharacters:"*", TextDifference:1)
+	end if
+else
+	if imagefound (0,Text:MyText,validCharacters:"*", searchRectangle: screenPart (Area))
+	else
+		log "We are refreshing the screen"
+		refreshscreen
+		wait 2
+		waitfor 5, (Text:MyText,validCharacters:"*", searchRectangle: screenPart (Area), TextDifference:1)
+	end if
+end if
+
+put foundimageinfo() into ImageInfo
+moveto (item 3 of ImageInfo.ImageRectangle + 30, item 2 of ImageInfo.ImageLocation)
+wait 0.5
+doubleclick
+
+

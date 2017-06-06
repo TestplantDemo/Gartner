@@ -1,0 +1,77 @@
+﻿to Textright MyImage
+	repeat until imagefound (0, Text:MyImage, validCharacters:"*")
+		click "ScrollRight"
+		wait 1
+		if repeatindex() >10
+			logerror "We did a scroll right ten times and we could not find" && MyImage
+			exit all
+		end if
+	end repeat
+end Textright
+
+to ImageDown MyImage
+	repeat until imagefound (0, MyImage)
+		put the mouseClickDelay into MCD
+		set the MouseClickDelay to 0.1
+		click (10,300)
+		set the MouseClickDelay to MCD
+		wait 0.5
+		typetext pageDown
+		wait 1
+		if repeatindex() >10
+			logerror "We did a page down ten times and we could not find" && MyImage
+			exit all
+		end if
+	end repeat
+	
+end ImageDown 
+
+to TextUp MyImage
+	repeat until imagefound (0, Text:MyImage, validCharacters:"*")
+		put the mouseClickDelay into MCD
+		set the MouseClickDelay to 0.1
+		click (10,300)
+		set the MouseClickDelay to MCD
+		wait 0.5
+		typetext pageUp
+		wait 1
+		if repeatindex() >10
+			logerror "We did a page up ten times and we could not find" && MyImage
+			exit all
+		end if
+	end repeat
+end TextUp
+
+to TextDown MyImage
+	repeat until imagefound (0, Text:MyImage, validCharacters:"*")
+		put the mouseClickDelay into MCD
+		set the MouseClickDelay to 0.1
+		click (10,300)
+		set the MouseClickDelay to MCD
+		wait 0.5
+		typetext pageDown
+		wait 1
+		if repeatindex() >10
+			logerror "We did a page down ten times and we could not find" && MyImage
+			exit all
+		end if
+	end repeat
+end TextDown
+
+to ImageUp MyImage
+
+	repeat until imagefound (0, MyImage)
+		put the mouseClickDelay into MCD
+		set the MouseClickDelay to 0.1
+		click (10,300)
+		set the MouseClickDelay to MCD
+		wait 0.5
+		typetext pageUp
+		wait 1
+		if repeatindex() >10
+			logerror "We did a page up ten times and we could not find the image"
+			exit all
+		end if
+	end repeat
+	
+end ImageUp 
