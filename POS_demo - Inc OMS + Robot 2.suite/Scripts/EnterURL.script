@@ -1,0 +1,7 @@
+﻿params MyURL
+WaitFor 30.0, "Refresh"
+typetext ControlKey,"l"
+typetext MyURL
+typetext return
+wait 1
+waitfor 50, "Refresh"

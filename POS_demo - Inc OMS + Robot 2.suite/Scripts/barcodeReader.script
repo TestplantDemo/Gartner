@@ -1,0 +1,21 @@
+﻿set the searchrectangle to ("bcTL", "bcBR")
+
+repeat until imagefound(0,text:"Orange Juice")
+	connect "Windows_7"
+	set the searchrectangle to fullscreen
+	click (image:"StartBtn",waitfor:20)
+	Connect "POS_Terminal"
+	set the searchrectangle to fullscreen
+	wait 3
+	set the searchrectangle to ("bcTL", "bcBR")
+	if repeatindex() = 3
+		exit repeat
+	end if
+end repeat
+if imagefound(2,text:"Orange Juice") then
+	Logsuccess "Orange Juice Barcode Scaned successfully"
+else
+	logWarning "No scaned items listed."
+end if
+set the searchRectangle to fullscreen
+Click "Pay"

@@ -1,0 +1,20 @@
+﻿{
+    CaptureDate = "2017-01-10 14:52:05 +0000";
+    CaptureHost = "eggBox-3.local";
+    CaptureScreenSize =     (
+        2048,
+        1536
+    );
+    HasAlpha = 1;
+    HotSpotX = "-20";
+    HotSpotY = 76;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 74;
+    OriginalLocationY = 898;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

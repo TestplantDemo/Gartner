@@ -1,0 +1,72 @@
+﻿
+BeginTestCase "Back Office"
+PressHomeButton
+wait 2
+
+SetDeviceOrientation "LandscapeRight"
+
+LaunchApp "Epos Now Till"
+
+if imagefound(3,"AlreadyacustomerExistingCustom") then
+	click (image:"AlreadyacustomerExistingCustom")
+end if
+
+click (image:"UserLogin",waitfor:20)
+waitfor 20,"Keyboard"
+typetext "test plant"
+
+click (image:"UserPwd",waitfor:20)
+typetext "eposnow"
+
+click (image:"Keyboard",waitfor:20)
+wait 3
+
+click (image:"Login_iOS",waitfor:20)
+
+if not imagefound(2,text:"completed transactions") then
+	if imagefound(5,"MnuOpn") then
+		click (image:"MnuOpn",waitfor:20)
+	end if
+	click (text:"transactions",waitfor:20)
+	click (text:"completed transactions",waitfor:20)
+	repeat until imagefound(0,"MnuOpn")
+		click (image:"mnu",waitfor:20)
+		wait 2
+	end repeat
+else
+	click (image:"mnu",waitfor:20)
+end if
+
+click (text:"refresh",waitfor:20)
+wait 3
+repeat until imagefound(0,"Show_Green")
+	set ScreenSize to remoteScreenSize()
+	DragandDrop ScreenSize*(0.01,0.98),ScreenSize*(0.01,0.3)
+	wait 3
+end repeat
+
+click "Show_Green"
+repeat until imagefound(0,text:"eposnow © 2017")
+	set ScreenSize to remoteScreenSize()
+	DragandDrop ScreenSize*(0.01,0.98),ScreenSize*(0.5,0.3)
+	wait 3
+end repeat
+
+put everyimagelocation(text:"change:") into MyTrnItemBR
+put the last item of MyTrnItemBR+(162,28) into MyNewTrnBrCord
+
+put readtext("ePosNowTI_TL", MyNewTrnBrCord) into MyRec
+replace every occurrence of return with comma in MyRec
+replace every occurrence of tab with comma in MyRec
+put item 7 of MyRec into TempList
+replace every occurrence of space with comma in TempList
+put TempList into item 7 of MyRec
+log MyRec
+
+//reset device
+Click (image:"UserOpt",waitfor:20)
+Click (text:"logout",waitfor:20)
+PressHomeButton
+RotateLeft
+EndTestCase "Back Office"
+

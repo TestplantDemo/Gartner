@@ -1,0 +1,18 @@
+﻿if imagefound("Background") then
+	doubleclick (image:"EposTill",waitfor:20)
+	waitfor 20,"Banner"
+end if
+
+if imagefound(2,"login") then 
+	Click "Manager"
+	set the searchRectangle to ("TLA","BRA")
+	Click (Text:"1")
+	Click (Text:"2")
+	Click (Text:"3", Contrast:On)
+	//Click (Text:"3")
+	Click (Text:"4")
+	set the searchRectangle to fullscreen
+	Click "Login"
+end if
+
+

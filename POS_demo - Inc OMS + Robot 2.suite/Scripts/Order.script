@@ -1,0 +1,16 @@
+﻿set the searchRectangle to ("TL1","BR1")
+Click (Text:"Food")
+Click (Text:"Egg & Mayo" & return & "Sandwich")
+set the searchRectangle to fullscreen
+Click "Top_Blue"
+set the searchRectangle to ("TL1","BR1")
+Click (Text:"Drinks")
+Click (Text:"Tea")
+set the searchRectangle to fullscreen
+Click "Top_Blue"
+set the searchRectangle to ("TL1","BR1")
+Click (Text:"Snacks")
+Click (Text:"Crisps")
+set the searchRectangle to fullscreen
+
+

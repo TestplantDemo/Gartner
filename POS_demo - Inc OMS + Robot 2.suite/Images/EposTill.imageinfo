@@ -1,0 +1,22 @@
+﻿{
+    Bitmask = <ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffff3f 00f0ffff ff7f00e0 ffffffff 00c0ffff ffff0180 ffffffff 0300ffff ffff0700 feffffff 0f00fcff ffff1f00 f8ffffff 3f00f0ff ffff7f00 e0ffffff ff00c0ff ffffff01 80ffffff ff0300ff ffffff07 00feffff ffffffff ffffff1f>;
+    BitmaskSize = "49,45";
+    CaptureDate = "2017-01-10 09:58:54 +0000";
+    CaptureHost = A15;
+    CaptureScreenSize =     (
+        1024,
+        768
+    );
+    HasAlpha = 1;
+    HotSpotX = 24;
+    HotSpotY = 22;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 14;
+    OriginalLocationY = 220;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

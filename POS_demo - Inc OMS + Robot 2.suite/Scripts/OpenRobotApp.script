@@ -1,0 +1,14 @@
+﻿Click (image:"RobotApp",waitfor:20)
+
+Click (Image:"PlayBtn",waitfor:20,searchRectangle:("Main_TL", "Main_BR"))
+
+Click (image:"ProgramOpt",waitfor:20)
+waitfor 20, text:"basic mode",TextDifference:1
+
+set the searchrectangle to ("DCntl_TL", "DCntl_BR")
+
+if imagefound(2, "Mouse") then
+	Click (image:"ModeBtn",waitfor:20)
+	waitfor 20,"KeyboardBtn"
+	logsuccess "keyboard image found at" && foundimagelocation()
+end if

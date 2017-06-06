@@ -1,0 +1,5 @@
+﻿params MyBrowser
+typetext WindowsKey,"r"
+WaitFor 8.0, "RunWindowsLogo"
+typetext MyBrowser
+typetext return

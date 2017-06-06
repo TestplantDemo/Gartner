@@ -1,0 +1,16 @@
+﻿connect "POS_Terminal"
+Login
+Order
+BarcodeReader
+Verify_Price
+Paycash
+Logout
+
+connect "iPad_AIr"
+BackOffice
+
+Connect "Windows_7"
+OpenApp "Chrome"
+EnterURL "https://www.eposnowhq.com/Pages/Account/Login.aspx"
+LoginDesktop
+CloseBrowser

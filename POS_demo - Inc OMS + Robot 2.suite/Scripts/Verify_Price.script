@@ -1,0 +1,6 @@
+﻿put ReadText(("TL2", "BR2")) into MyPrice
+if MyPrice = "£5.50"
+	log "The total price is as expected " & MyPrice
+else
+	logwarning "The total price is not correct, it is displayed as " & MyPrice
+end if

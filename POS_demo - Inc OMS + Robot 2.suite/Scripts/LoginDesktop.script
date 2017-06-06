@@ -1,0 +1,12 @@
+﻿Click "UserID"
+typetext "test plant"
+Click "Password"
+typetext "eposnow"
+Click "LoginDesktop"
+wait 1
+waitforAll 20, "Refresh", "UpgradeFreeToday"
+put readtext ("TLTotalSales", "BRTotalSales") into TotalSales
+put readtext ("TLTax", "BRTax") into TotalTax
+log "Our total sales is:" && TotalSales
+log "Our total tax is:" && TotalTax
+
