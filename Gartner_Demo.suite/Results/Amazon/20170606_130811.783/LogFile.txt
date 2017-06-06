@@ -1,0 +1,4 @@
+﻿2017-06-06 13:08:11.784 +0100	START		Running Amazon.script
+2017-06-06 13:10:54.581 +0100	Exception	amazon_app	No Image Found On Screen: "amazon_app"	1	on_amazon	Amazon.script
+2017-06-06 13:10:54.792 +0100	EndTestCase		(Duration:"163.005752", Errors:"1", Exceptions:"1", StartTime:"2017-06-06 13:08:11 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"0")
+2017-06-06 13:10:54.793 +0100	ABORTED		Execution Time 0:02:43 Amazon.script

@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2017-06-06 12:26:43 +0000";
+    CaptureHost = "Galaxy_S7";
+    CaptureScreenSize =     (
+        1080,
+        1920
+    );
+    HasAlpha = 1;
+    HotSpotX = 71;
+    HotSpotY = 57;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 600;
+    OriginalLocationY = 143;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}
