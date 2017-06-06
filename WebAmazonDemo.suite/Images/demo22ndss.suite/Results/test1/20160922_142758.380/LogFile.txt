@@ -1,0 +1,12 @@
+﻿2016-09-22 14:27:58.381 +0100	START		Running test1.script
+2016-09-22 14:28:00.027 +0100	imagefound	AppIcon	Unable to Find Image AppIcon within 1.00 seconds	3	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:28:00.371 +0100	swipeleft		Swiped left from (1296, 1280) to (144, 1280)	4	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:28:04.928 +0100	imagefound	AppIcon	Unable to Find Image AppIcon within 1.00 seconds	6	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:28:05.268 +0100	swipeleft		Swiped left from (1296, 1280) to (144, 1280)	4	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:28:09.075 +0100	imagefound	AppIcon	found at (890, 731)	6	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:28:10.453 +0100	click	AppIcon	at (890, 731)	3	on_test1	test1.script
+2016-09-22 14:28:11.839 +0100	waitfor	amazonPrime	found at (442, 209)	4	on_test1	test1.script
+2016-09-22 14:28:11.843 +0100	presshomebutton			5	on_test1	test1.script
+2016-09-22 14:28:13.868 +0100	waitfor	AppIcon	found at (890, 731)	6	on_test1	test1.script
+2016-09-22 14:28:14.296 +0100	EndTestCase		(Duration:"15.913859", Errors:"0", Exceptions:"0", StartTime:"2016-09-22 14:27:58 +0100", Successes:"1", TestCase:"test1.script", Warnings:"0")
+2016-09-22 14:28:14.301 +0100	SUCCESS		Execution Time 0:00:15 test1.script

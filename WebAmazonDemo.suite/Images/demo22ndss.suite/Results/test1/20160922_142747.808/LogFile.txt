@@ -1,0 +1,5 @@
+﻿2016-09-22 14:27:47.809 +0100	START		Running test1.script
+2016-09-22 14:27:49.438 +0100	imagefound	AppIcon	Unable to Find Image AppIcon within 1.00 seconds	3	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:27:49.790 +0100	swipeleft		Swiped left from (1296, 1280) to (144, 1280)	4	on_swipeleftuntil	SwipeLeftUntil.script
+2016-09-22 14:27:53.075 +0100	EndTestCase		(Duration:"5.264818", Errors:"1", Exceptions:"0", StartTime:"2016-09-22 14:27:47 +0100", Successes:"0", TestCase:"test1.script", Warnings:"0")
+2016-09-22 14:27:53.076 +0100	ABORTED		Execution Time 0:00:05 test1.script

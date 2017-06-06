@@ -3,3 +3,4 @@ typetext windowskey,"r"
 WaitFor 8.0, "Runheader"
 typetext MyBrowser
 typetext return
+return yes

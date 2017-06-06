@@ -10,3 +10,4 @@ wait 1
 waitfor 50, "Refresh"
 endtestcase "SearchItem"
 log "It took" && the duration of the result && "seconds for the page to load when searching for" && MyItem && "on" && MyBrowser
+return yes

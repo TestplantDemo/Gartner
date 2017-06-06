@@ -1,0 +1,4 @@
+﻿2016-09-22 14:30:44.347 +0100	START		Running OCRDemo.script
+2016-09-22 14:30:46.974 +0100	readtext		(453,1029,656,1102)
+2016-09-22 14:30:47.389 +0100	EndTestCase		(Duration:"3.041316", Errors:"0", Exceptions:"0", StartTime:"2016-09-22 14:30:44 +0100", Successes:"1", TestCase:"OCRDemo.script", Warnings:"0")
+2016-09-22 14:30:47.407 +0100	SUCCESS		Execution Time 0:00:03 OCRDemo.script
