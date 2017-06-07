@@ -10,10 +10,10 @@
  </script>
  <script name="MASTER">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfRuns>5</NumberOfRuns>
   <NumberOfFails>1</NumberOfFails>
   <FirstRun>2017-06-06 17:50:50 +0100</FirstRun>
-  <LastRun>2017-06-06 18:10:56 +0100</LastRun>
-  <TotalTimeOnSuccess>431.529757</TotalTimeOnSuccess>
+  <LastRun>2017-06-07 15:21:27 +0100</LastRun>
+  <TotalTimeOnSuccess>580.646887</TotalTimeOnSuccess>
  </script>
 </statistics>

@@ -1,5 +1,5 @@
 ﻿put ReadText(("TL2", "BR2")) into global MyPrice
-if MyPrice = "£5.50"
+if MyPrice = "5.50"
 	log "The total price is as expected " & global MyPrice
 else
 	logwarning "The total price is not correct, it is displayed as " & global MyPrice
