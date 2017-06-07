@@ -2,10 +2,10 @@
 <statistics>
  <script name="Amazon">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>7</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
+  <NumberOfRuns>10</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
   <FirstRun>2017-06-06 11:08:21 +0100</FirstRun>
-  <LastRun>2017-06-07 12:02:26 +0100</LastRun>
-  <TotalTimeOnSuccess>1919.592130</TotalTimeOnSuccess>
+  <LastRun>2017-06-07 15:39:32 +0100</LastRun>
+  <TotalTimeOnSuccess>2017.870273</TotalTimeOnSuccess>
  </script>
 </statistics>
