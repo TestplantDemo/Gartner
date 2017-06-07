@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2017-06-07 11:09:07 +0000";
+    CaptureHost = "iPad_Air";
+    CaptureScreenSize =     (
+        1536,
+        2048
+    );
+    HasAlpha = 0;
+    HotSpotX = 68;
+    HotSpotY = 17;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 504;
+    OriginalLocationY = 65;
+    Precise = 1;
+    Pulsing = 0;
+    Scale = 1;
+}

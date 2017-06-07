@@ -1,0 +1,5 @@
+﻿2017-06-07 12:06:12.389 +0100	START		Running Amazon.script
+2017-06-07 12:06:12.427 +0100	startmovie		/Users/minghzi/gartnermqGIT/Gartner_Demo.suite/Results/Amazon/20170607_120612.388/Amazon_App_Test.mkv	1	on_amazon	Amazon.script
+2017-06-07 12:06:12.429 +0100	killapp		Amazon	3	on_amazon	Amazon.script
+2017-06-07 12:06:13.134 +0100	killapp		com.amazon.mShop.android.shopping	4	on_amazon	Amazon.script
+2017-06-07 12:07:15.531 +0100	click	amazon_app	at (1293, 1548)	6	on_amazon	Amazon.script
