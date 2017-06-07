@@ -1,4 +1,0 @@
-﻿2017-06-07 15:49:07.263 +0100	START		Running Amazon.script
-2017-06-07 15:49:07.321 +0100	startmovie		/Users/MaxGerrard/gartnertmqGIT/0706Live/Gartner_Demo.suite/Results/Amazon/20170607_154907.262/Amazon_App_Test.mkv	1	on_amazon	Amazon.script
-2017-06-07 15:49:53.740 +0100	EndTestCase		(Duration:"46.476533", Errors:"1", Exceptions:"0", StartTime:"2017-06-07 15:49:07 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"0")
-2017-06-07 15:49:53.741 +0100	ABORTED		Execution Time 0:00:46 Amazon.script
