@@ -1,0 +1,8 @@
+<?xml version="1.0"?><TableScript xmlns="http://www.testplant.com/xmlns/TableScript/2014">
+<Lines>
+<Line><Action>OpenBrowser</Action><Arguments>firefox</Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>EnterURL</Action><Arguments>www.amazon.co.uk</Arguments><ExpectedValueExpression>Yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>AmazonTest</Action><Arguments>firefox,playstation</Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>CloseBrowser</Action><Arguments></Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+</Lines>
+</TableScript>
