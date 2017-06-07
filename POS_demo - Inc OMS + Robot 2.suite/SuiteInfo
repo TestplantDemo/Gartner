@@ -3,6 +3,30 @@
     Schedules =     (
     );
     ScriptMetaData =     {
+        Login =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+        Logout =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+        Order =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+        Paycash =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+        "Verify_Price" =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
+        barcodeReader =         {
+            TableScriptUserActionDefaultExpectedValue = yes;
+            TableScriptUserActionType = Verify;
+        };
     };
     SuiteEncodedTextKey = "Lga^3\\:0:'4k5?4-";
     helpedSuitesInfo =     (

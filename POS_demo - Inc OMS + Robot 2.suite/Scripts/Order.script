@@ -8,4 +8,6 @@ repeat 3 times
 	Click "Top_Blue"
 end repeat
 
+return yes
+
 

@@ -19,3 +19,5 @@ else
 end if
 set the searchRectangle to fullscreen
 Click "Pay"
+
+return yes

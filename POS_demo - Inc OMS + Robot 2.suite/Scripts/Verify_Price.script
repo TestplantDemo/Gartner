@@ -4,3 +4,5 @@ if MyPrice = "5.50"
 else
 	logwarning "The total price is not correct, it is displayed as " & global MyPrice
 end if
+
+return yes

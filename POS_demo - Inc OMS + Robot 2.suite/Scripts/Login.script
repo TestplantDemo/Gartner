@@ -15,4 +15,6 @@ if imagefound(2,"login") then
 	Click "Login"
 end if
 
+return yes
+
 
