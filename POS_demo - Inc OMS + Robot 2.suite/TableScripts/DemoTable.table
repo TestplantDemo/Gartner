@@ -1,0 +1,10 @@
+<?xml version="1.0"?><TableScript xmlns="http://www.testplant.com/xmlns/TableScript/2014">
+<Lines>
+<Line><Action>Login</Action><Arguments></Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>Order</Action><Arguments></Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>barcodeReader</Action><Arguments></Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>Verify_Price</Action><Arguments></Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>Paycash</Action><Arguments></Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>Logout</Action><Arguments></Arguments><ExpectedValueExpression>yes</ExpectedValueExpression><Comment></Comment></Line>
+</Lines>
+</TableScript>
