@@ -1,0 +1,4 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-06-08 13:29:36.864 +0100,"Failure",0:00:26,1,0,1,"20170608_132936.864/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""Keyboard_Space"" within 4.00 seconds",0
+2017-06-08 13:30:32.152 +0100,"Success",0:00:14,0,0,0,"20170608_133032.152/LogFile.txt","","",1
+2017-06-08 13:35:50.825 +0100,"Success",0:00:59,0,0,0,"20170608_133550.825/LogFile.txt","","",1

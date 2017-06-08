@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Amazon">
+ <run>
+  <RunDate>2017-06-08 13:29:36.864 +0100</RunDate>
+  <Status>Failure</Status>
+  <Duration>26.506777</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20170608_132936.864/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- waitfor Error - Unable To Find Any Image On Screen &quot;Keyboard_Space&quot; within 4.00 seconds</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-06-08 13:30:32.152 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>14.488881</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170608_133032.152/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-06-08 13:35:50.825 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>59.385949</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170608_133550.825/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,13 @@
+﻿2017-06-08 13:35:50.826 +0100	START		Running Amazon.script
+2017-06-08 13:35:50.880 +0100	killapp		Amazon	3	on_amazon	Amazon.script
+2017-06-08 13:35:51.582 +0100	killapp		com.amazon.mShop.android.shopping	4	on_amazon	Amazon.script
+2017-06-08 13:36:02.819 +0100	click	amazon_app	at (127, 1185)	6	on_amazon	Amazon.script
+2017-06-08 13:36:05.571 +0100	waitfor	amazon_banner	found at (324, 146)	7	on_amazon	Amazon.script
+2017-06-08 13:36:10.890 +0100	click	Search	at (213, 317)	8	on_amazon	Amazon.script
+2017-06-08 13:36:41.662 +0100	waitfor	Keyboard_Space	found at (467, 2002)	9	on_amazon	Amazon.script
+2017-06-08 13:36:41.875 +0100	typetext		The Matrix DVD[returnKey]	10	on_amazon	Amazon.script
+2017-06-08 13:36:44.903 +0100	waitfor	Filter	found at (968, 466)	11	on_amazon	Amazon.script
+2017-06-08 13:36:44.907 +0100	presshomebutton			12	on_amazon	Amazon.script
+2017-06-08 13:36:49.927 +0100	waitfor	amazon_app	found at (127, 1185)	13	on_amazon	Amazon.script
+2017-06-08 13:36:50.211 +0100	EndTestCase		(Duration:"59.384535", Errors:"0", Exceptions:"0", StartTime:"2017-06-08 13:35:50 +0100", Successes:"1", TestCase:"Amazon.script", Warnings:"0")
+2017-06-08 13:36:50.225 +0100	SUCCESS		Execution Time 0:00:59 Amazon.script
