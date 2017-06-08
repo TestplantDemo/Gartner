@@ -1,0 +1,4 @@
+﻿RunWithNewResults "Test_1"
+if the result.status = "failure"
+	reboot
+end if

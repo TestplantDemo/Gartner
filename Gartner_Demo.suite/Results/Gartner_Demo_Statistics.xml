@@ -2,10 +2,26 @@
 <statistics>
  <script name="Amazon">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>17</NumberOfRuns>
+  <NumberOfRuns>18</NumberOfRuns>
   <NumberOfFails>2</NumberOfFails>
   <FirstRun>2017-06-06 11:08:21 +0100</FirstRun>
-  <LastRun>2017-06-08 15:18:37 +0100</LastRun>
-  <TotalTimeOnSuccess>2227.218826</TotalTimeOnSuccess>
+  <LastRun>2017-06-08 15:26:30 +0100</LastRun>
+  <TotalTimeOnSuccess>2250.095643</TotalTimeOnSuccess>
+ </script>
+ <script name="Test_1">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-06-08 15:24:14 +0100</FirstRun>
+  <LastRun>2017-06-08 15:24:14 +0100</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="TestRunner">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-06-08 15:24:14 +0100</FirstRun>
+  <LastRun>2017-06-08 15:24:14 +0100</LastRun>
+  <TotalTimeOnSuccess>4.681184</TotalTimeOnSuccess>
  </script>
 </statistics>
