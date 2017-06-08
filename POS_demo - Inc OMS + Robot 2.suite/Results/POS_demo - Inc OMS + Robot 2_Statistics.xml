@@ -8,14 +8,6 @@
   <LastRun>2017-06-06 18:08:09 +0100</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
  </script>
- <script name="TEST">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>1</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
-  <FirstRun>2017-06-07 16:25:44 +0100</FirstRun>
-  <LastRun>2017-06-07 16:25:44 +0100</LastRun>
-  <TotalTimeOnSuccess>54.449532</TotalTimeOnSuccess>
- </script>
  <script name="DemoTable">
   <LastStatus>Success</LastStatus>
   <NumberOfRuns>1</NumberOfRuns>
@@ -26,10 +18,10 @@
  </script>
  <script name="MASTER">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfRuns>7</NumberOfRuns>
   <NumberOfFails>1</NumberOfFails>
   <FirstRun>2017-06-06 17:50:50 +0100</FirstRun>
-  <LastRun>2017-06-08 13:25:44 +0100</LastRun>
-  <TotalTimeOnSuccess>739.112722</TotalTimeOnSuccess>
+  <LastRun>2017-06-08 14:42:21 +0100</LastRun>
+  <TotalTimeOnSuccess>893.978061</TotalTimeOnSuccess>
  </script>
 </statistics>
