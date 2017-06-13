@@ -1,0 +1,11 @@
+﻿2017-06-13 14:49:38.377 +0100	START		Running Amazon.script
+2017-06-13 14:49:38.432 +0100	setdeviceorientation		Portrait	3	on_amazon	Amazon.script
+2017-06-13 14:49:39.136 +0100	killapp		Amazon	4	on_amazon	Amazon.script
+2017-06-13 14:49:39.841 +0100	killapp		com.amazon.mShop.android.shopping	5	on_amazon	Amazon.script
+2017-06-13 14:49:49.985 +0100	click	amazon_app	at (929, 1226)	7	on_amazon	Amazon.script
+2017-06-13 14:49:51.604 +0100	waitfor	amazon_banner	found at (324, 146)	8	on_amazon	Amazon.script
+2017-06-13 14:49:52.421 +0100	click	Search	at (213, 317)	9	on_amazon	Amazon.script
+2017-06-13 14:49:58.197 +0100	LogWarning		Unable to Find Image(s): Keyboard_Space.png, Keyboard_Space_ipad.png, Keyboard_Space_iphone7plus.png -- AutoUpdate engaged	10	on_amazon	Amazon.script
+2017-06-13 14:50:02.723 +0100	Exception	Keyboard_Space	Unable To Find Any Image On Screen "Keyboard_Space" within 4.00 seconds	10	on_amazon	Amazon.script
+2017-06-13 14:50:03.201 +0100	EndTestCase		(Duration:"24.823299", Errors:"1", Exceptions:"1", StartTime:"2017-06-13 14:49:38 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"1")
+2017-06-13 14:50:03.202 +0100	ABORTED		Execution Time 0:00:24 Amazon.script
