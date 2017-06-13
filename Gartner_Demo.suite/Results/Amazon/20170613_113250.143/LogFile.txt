@@ -1,0 +1,8 @@
+﻿2017-06-13 11:32:50.143 +0100	START		Running Amazon.script
+2017-06-13 11:32:50.200 +0100	killapp		Amazon	3	on_amazon	Amazon.script
+2017-06-13 11:32:50.904 +0100	killapp		com.amazon.mShop.android.shopping	4	on_amazon	Amazon.script
+2017-06-13 11:32:53.972 +0100	click	amazon_app	at (1805, 1050)	6	on_amazon	Amazon.script
+2017-06-13 11:32:57.173 +0100	waitfor	amazon_banner	found at (126, 80)	7	on_amazon	Amazon.script
+2017-06-13 11:32:57.665 +0100	click	Search	at (572, 82)	8	on_amazon	Amazon.script
+2017-06-13 11:33:15.694 +0100	EndTestCase		(Duration:"25.549338", Errors:"1", Exceptions:"0", StartTime:"2017-06-13 11:32:50 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"0")
+2017-06-13 11:33:15.695 +0100	ABORTED		Execution Time 0:00:25 Amazon.script

@@ -1,5 +1,6 @@
 ﻿(*StartMovie "Amazon_App_Test"*)
 
+SetDeviceOrientation "Portrait"
 killapp "Amazon"
 killApp "com.amazon.mShop.android.shopping"
 wait 2
