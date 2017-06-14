@@ -168,4 +168,52 @@
   <ReturnValue></ReturnValue>
   <ErrorMessage></ErrorMessage>
  </run>
+ <run>
+  <RunDate>2017-06-14 09:28:09.516 +0100</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20170614_092809.516/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-06-14 09:28:34.025 +0100</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20170614_092834.025/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-06-14 09:29:06.588 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>23.427666</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170614_092906.588/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-06-14 10:40:07.694 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>61.639695</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170614_104007.694/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
 </runHistory>
