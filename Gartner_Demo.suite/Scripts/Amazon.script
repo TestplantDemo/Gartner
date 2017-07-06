@@ -13,4 +13,3 @@ WaitFor 8, "Filter"
 PressHomeButton
 WaitFor 8.0, "amazon_app"
 
-(*StopMovie*)

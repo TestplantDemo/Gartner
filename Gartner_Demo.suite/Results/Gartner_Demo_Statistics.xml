@@ -10,11 +10,11 @@
  </script>
  <script name="Amazon">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>32</NumberOfRuns>
+  <NumberOfRuns>33</NumberOfRuns>
   <NumberOfFails>3</NumberOfFails>
   <FirstRun>2017-06-06 11:08:21 +0100</FirstRun>
-  <LastRun>2017-07-06 12:47:10 +0100</LastRun>
-  <TotalTimeOnSuccess>2662.456216</TotalTimeOnSuccess>
+  <LastRun>2017-07-06 12:58:05 +0100</LastRun>
+  <TotalTimeOnSuccess>2682.935759</TotalTimeOnSuccess>
  </script>
  <script name="Test_1">
   <LastStatus>Failure</LastStatus>
