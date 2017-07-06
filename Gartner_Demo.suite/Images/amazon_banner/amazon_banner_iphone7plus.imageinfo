@@ -1,12 +1,12 @@
 ﻿{
-    CaptureDate = "2017-06-06 10:09:15 +0000";
+    CaptureDate = "2017-07-06 11:56:33 +0000";
     CaptureHost = "iPhone_7_+";
     CaptureScreenSize =     (
         1242,
         2208
     );
     HasAlpha = 1;
-    HotSpotX = 191;
+    HotSpotX = 192;
     HotSpotY = 51;
     LastKnownLocationX = 0;
     LastKnownLocationY = 0;

@@ -8,6 +8,14 @@
   <LastRun>2017-06-08 15:24:14 +0100</LastRun>
   <TotalTimeOnSuccess>4.681184</TotalTimeOnSuccess>
  </script>
+ <script name="Amazon">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>32</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2017-06-06 11:08:21 +0100</FirstRun>
+  <LastRun>2017-07-06 12:47:10 +0100</LastRun>
+  <TotalTimeOnSuccess>2662.456216</TotalTimeOnSuccess>
+ </script>
  <script name="Test_1">
   <LastStatus>Failure</LastStatus>
   <NumberOfRuns>1</NumberOfRuns>
@@ -15,13 +23,5 @@
   <FirstRun>2017-06-08 15:24:14 +0100</FirstRun>
   <LastRun>2017-06-08 15:24:14 +0100</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
- </script>
- <script name="Amazon">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>30</NumberOfRuns>
-  <NumberOfFails>2</NumberOfFails>
-  <FirstRun>2017-06-06 11:08:21 +0100</FirstRun>
-  <LastRun>2017-06-15 14:50:52 +0100</LastRun>
-  <TotalTimeOnSuccess>2647.707291</TotalTimeOnSuccess>
  </script>
 </statistics>

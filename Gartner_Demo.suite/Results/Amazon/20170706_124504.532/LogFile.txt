@@ -1,0 +1,5 @@
+﻿2017-07-06 12:45:04.533 +0100	START		Running Amazon.script
+2017-07-06 12:45:04.556 +0100	setdeviceorientation		Portrait	3	on_amazon	Amazon.script
+2017-07-06 12:45:05.260 +0100	killapp		Amazon	4	on_amazon	Amazon.script
+2017-07-06 12:45:05.596 +0100	EndTestCase		(Duration:"1.061889", Errors:"1", Exceptions:"0", StartTime:"2017-07-06 12:45:04 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"0")
+2017-07-06 12:45:05.597 +0100	ABORTED		Execution Time 0:00:01 Amazon.script

@@ -1,0 +1,1 @@
+2017-07-06 12:46:29.410 +0100,Failure,0:00:05,1,0,1,20170706_124629.410/LogFile.txt,"","Error Running Script Command -- setdeviceorientation Error - Timed out waiting for device orientation change (orientation may not be supported by current app or device)",0

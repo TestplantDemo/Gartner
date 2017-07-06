@@ -1,0 +1,4 @@
+﻿2017-07-06 12:46:29.411 +0100	START		Running Amazon.script
+2017-07-06 12:46:34.465 +0100	Exception		Timed out waiting for device orientation change (orientation may not be supported by current app or device)	3	on_amazon	Amazon.script
+2017-07-06 12:46:34.822 +0100	EndTestCase		(Duration:"5.409616", Errors:"1", Exceptions:"1", StartTime:"2017-07-06 12:46:29 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"0")
+2017-07-06 12:46:34.976 +0100	FAILURE	Screen_Error.png	Error Running Script Command setdeviceorientation Error - Timed out waiting for device orientation change (orientation may not be supported by current app or device) -- Execution Time 0:00:05 Amazon.script
