@@ -1,0 +1,6 @@
+﻿2017-07-11 10:57:50.048 +0100	START		Running Amazon.script
+2017-07-11 10:57:50.098 +0100	setdeviceorientation		Portrait	3	on_amazon	Amazon.script
+2017-07-11 10:57:50.799 +0100	killapp		Amazon	4	on_amazon	Amazon.script
+2017-07-11 10:57:51.501 +0100	killapp		com.amazon.mShop.android.shopping	5	on_amazon	Amazon.script
+2017-07-11 10:57:56.635 +0100	EndTestCase		(Duration:"6.585882", Errors:"1", Exceptions:"0", StartTime:"2017-07-11 10:57:50 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"0")
+2017-07-11 10:57:56.635 +0100	ABORTED		Execution Time 0:00:06 Amazon.script
