@@ -7,7 +7,7 @@ wait 2
 Click "amazon_app"
 WaitFor 8.0, "amazon_banner"
 Click "Search"
-WaitFor 4, "Keyboard_Space"
+WaitFor 10, "Keyboard_Space"
 TypeText "The Matrix DVD", returnKey
 WaitFor 8, "Filter"
 PressHomeButton
