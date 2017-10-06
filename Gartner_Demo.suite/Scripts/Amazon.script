@@ -9,7 +9,7 @@ WaitFor 8.0, "amazon_banner"
 Click "Search"
 WaitFor 10, "Keyboard_Space"
 TypeText "The Matrix DVD", returnKey
-WaitFor 8, "Filter"
+WaitFor 20, "Filter"
 PressHomeButton
 wait 3
 
