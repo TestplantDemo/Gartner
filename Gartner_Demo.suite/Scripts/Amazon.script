@@ -4,8 +4,10 @@ SetDeviceOrientation "Portrait"
 killapp "Amazon"
 killApp "com.amazon.mShop.android.shopping"
 wait 2
-Click "amazon_app"
-WaitFor 8.0, "amazon_banner"
+//Click "amazon_app"
+launchapp "Amazon"
+LaunchApp "com.amazon.mShop.android.shopping"
+WaitFor 20, "amazon_banner"
 Click "Search"
 WaitFor 10, "Keyboard_Space"
 TypeText "The Matrix DVD", returnKey

@@ -1,0 +1,10 @@
+﻿2018-05-11 14:52:35.791 +0100	START		Running Amazon.script
+2018-05-11 14:52:35.949 +0100	setdeviceorientation		Portrait	3	on_amazon	Amazon.script
+2018-05-11 14:52:36.650 +0100	killapp		Amazon	4	on_amazon	Amazon.script
+2018-05-11 14:52:37.354 +0100	killapp		com.amazon.mShop.android.shopping	5	on_amazon	Amazon.script
+2018-05-11 14:52:39.364 +0100	launchapp		Amazon	8	on_amazon	Amazon.script
+2018-05-11 14:52:40.069 +0100	launchapp		com.amazon.mShop.android.shopping	9	on_amazon	Amazon.script
+2018-05-11 14:52:46.508 +0100	waitfor	amazon_banner	found at (344, 156)	10	on_amazon	Amazon.script
+2018-05-11 14:52:47.882 +0100	click	Search	at (213, 332)	11	on_amazon	Amazon.script
+2018-05-11 14:52:58.655 +0100	EndTestCase		(Duration:"22.85763", Errors:"1", Exceptions:"0", StartTime:"2018-05-11 14:52:35 +0100", Successes:"0", TestCase:"Amazon.script", Warnings:"0")
+2018-05-11 14:52:58.656 +0100	ABORTED		Execution Time 0:00:22 Amazon.script
