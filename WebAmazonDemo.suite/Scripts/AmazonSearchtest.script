@@ -3,3 +3,5 @@ OpenBrowser MyBrowser
 EnterURL "www.amazon.co.uk"
 AmazonTest "playstation 4",MyBrowser
 CloseBrowser
+
+log 123
