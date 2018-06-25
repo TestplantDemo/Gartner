@@ -1,0 +1,16 @@
+﻿2018-06-25 13:39:53.495 +0100	START		Running Amazon.script
+2018-06-25 13:39:53.570 +0100	setdeviceorientation		Portrait	3	on_amazon	Amazon.script
+2018-06-25 13:39:54.273 +0100	killapp		Amazon	4	on_amazon	Amazon.script
+2018-06-25 13:39:54.973 +0100	killapp		com.amazon.mShop.android.shopping	5	on_amazon	Amazon.script
+2018-06-25 13:39:57.979 +0100	launchapp		Amazon	8	on_amazon	Amazon.script
+2018-06-25 13:39:58.679 +0100	launchapp		com.amazon.mShop.android.shopping	9	on_amazon	Amazon.script
+2018-06-25 13:40:08.076 +0100	waitfor	amazon_banner	found at (773, 82)	10	on_amazon	Amazon.script
+2018-06-25 13:40:11.525 +0100	click	Search	at (104, 162)	11	on_amazon	Amazon.script
+2018-06-25 13:40:14.323 +0100	waitfor	Keyboard_Space	found at (1466, 1975)	12	on_amazon	Amazon.script
+2018-06-25 13:40:14.717 +0100	typetext		The Matrix DVD[returnKey]	13	on_amazon	Amazon.script
+2018-06-25 13:40:17.701 +0100	waitfor	Filter	found at (1432, 350)	14	on_amazon	Amazon.script
+2018-06-25 13:40:17.729 +0100	presshomebutton			15	on_amazon	Amazon.script
+2018-06-25 13:40:20.734 +0100	killapp		Amazon	17	on_amazon	Amazon.script
+2018-06-25 13:40:21.438 +0100	killapp		com.amazon.mShop.android.shopping	18	on_amazon	Amazon.script
+2018-06-25 13:40:22.663 +0100	EndTestCase		(Duration:"29.16676", Errors:"0", Exceptions:"0", StartTime:"2018-06-25 13:39:53 +0100", Successes:"1", TestCase:"Amazon.script", Warnings:"0")
+2018-06-25 13:40:22.709 +0100	SUCCESS		Execution Time 0:00:29 Amazon.script

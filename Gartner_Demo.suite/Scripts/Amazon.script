@@ -3,7 +3,7 @@
 SetDeviceOrientation "Portrait"
 killapp "Amazon"
 killApp "com.amazon.mShop.android.shopping"
-wait 2
+wait 3
 //Click "amazon_app"
 launchapp "Amazon"
 LaunchApp "com.amazon.mShop.android.shopping"
@@ -14,4 +14,6 @@ TypeText "The Matrix DVD", returnKey
 WaitFor 20, "Filter"
 PressHomeButton
 wait 3
+killapp "Amazon"
+killApp "com.amazon.mShop.android.shopping"
 

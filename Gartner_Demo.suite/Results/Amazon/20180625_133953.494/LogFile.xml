@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Amazon.script" package="Gartner_Demo.suite" timestamp="2018-06-25 13:39:53.494 +0100"
+ tests="1" successes="1" errors="0" time="29.168509">
+  <properties>
+   <property name="RunDate" value="2018-06-25 13:39:53.494 +0100"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Amazon.script" assertions="1" successes="1" errors="0" time="29.16676">
+  </testcase>
+ </testsuite>
+</testsuites>
